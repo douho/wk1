@@ -1,6 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import { Image } from 'react-native-web';
 
 export default function App() {
   return (
@@ -9,9 +8,8 @@ export default function App() {
       <Text>數位二甲</Text>
       <Text>胡竇琳</Text>
       <View>
-      <Image style={styles.image} source={require('./assets/pingue.jpg')} />
-      </View>
 
+      </View>
       <StatusBar style="auto" />
     </View>
   );
