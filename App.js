@@ -7,8 +7,8 @@ export default function App() {
     <View style={styles.container}>
       <Text>110919032</Text>
       <Text>數位二甲</Text>
-      <Text>胡竇琳  </Text>
-      <Image></Image>
+      <Text>胡竇琳</Text>
+      {/* <Image></Image> */}
       <StatusBar style="auto" />
     </View>
   );
