@@ -8,6 +8,10 @@ export default function App() {
       <Text>110919032</Text>
       <Text>數位二甲</Text>
       <Text>胡竇琳</Text>
+      <View>
+      <Image style={styles.image} source={require('./assets/pingue.jpg')} />
+      </View>
+
       <StatusBar style="auto" />
     </View>
   );
